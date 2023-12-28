@@ -1,0 +1,86 @@
+/* Folha de Estilos */
+
+footer {
+    background: #f9f9fa;
+	padding: 10px 20px 10px 20px;
+	margin: 0%;
+	width: 100%;
+	box-sizing: border-box		
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: #FF4000
+}
+
+h2 {
+    text-align: center;
+	font-size: 1.9em;
+	margin-top: 10px;
+}
+
+article {
+    background-color: #F8ECE0;
+}
+
+p {
+    text-align: left;
+    margin: 50px 2% 2% 2%;
+}
+
+ 
+/* Categorias do Menu */
+
+#chicken {
+    background-color: #FF4000;
+	color: #ffffff;
+	font-size: 1.4em;
+
+}
+
+
+
+
+/* Layout Responsivo */
+
+
+@media (min-width: 992px) {
+
+    #col1 {
+        width: 100%;
+    }
+
+    #cont1 {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    #col1 {
+        width: 100%;
+    }
+
+    #cont1 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    #col1 {
+        width: 100%;
+    }
+
+    #cont1 {
+        width: 100%;
+    }
+}
